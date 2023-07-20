@@ -578,8 +578,7 @@ public class WorldMock implements World
 	@Override
 	public @NotNull Chunk getChunkAt(int x, int z, boolean generate)
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+		return getChunkAt(x, z);
 	}
 
 	/**
