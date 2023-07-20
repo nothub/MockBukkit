@@ -1369,8 +1369,7 @@ public class WorldMock implements World
 	@Override
 	public @NotNull CompletableFuture<Chunk> getChunkAtAsync(int x, int z, boolean gen, boolean urgent)
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+		return CompletableFuture.completedFuture(getChunkAt(x, z, gen));
 	}
 
 	@Override
