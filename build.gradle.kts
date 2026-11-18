@@ -27,7 +27,7 @@ dependencies {
 	implementation("org.junit.jupiter:junit-jupiter:5.9.3")
 
 	// General utilities for the project
-	implementation("net.kyori:adventure-platform-bungeecord:4.3.0")
+	implementation("net.kyori:adventure-platform-bungeecord:4.4.1")
 	implementation("org.jetbrains:annotations:24.0.1")
 	implementation("net.bytebuddy:byte-buddy:1.14.5")
 
